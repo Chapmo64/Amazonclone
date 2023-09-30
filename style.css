@@ -8,6 +8,7 @@
     background-color: #007185;
     color: whitesmoke;
     display: flex;
+    align-items: center;
 }
 
 .logo{
@@ -23,19 +24,50 @@
 }
 
 .border{
-    border: 2px solid transparent;
+    border: 5px solid transparent;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .border:hover{
     border: 2px solid white;
 }
 
-/** navbar icon set **/
+/** navbar box 1 **/
 
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+    
+}
 .add-d2{
     color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
 }
 
 .add-india{
     color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+    
+}
+
+/** Box 2 **/
+
+.nev-search{
+    margin-left: 5px;
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+}
+
+.search-select{
+
+}
+
+.search-input{
+
 }
