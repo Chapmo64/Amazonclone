@@ -61,11 +61,16 @@
 {
     padding: 5px;
     display: flex;
-    background-color: pink;
+    background-color:pink;
     height: 50px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     margin-right: 2px;
+}
+
+.nev-search:hover{
+    border: 2px solid orange;
+
 }
 
 .search-select
@@ -96,12 +101,30 @@ border-top-right-radius: 2px;
 
 
 }
-.search-icon{
-    display: flex;
-    height: 50px;
-    align-items: center;
-}
 
 .america_flag{
     margin-left: 5px;
+}
+
+/** Box 4 **/
+.span{
+    font-size: 12px;
+    color: #c1bdbd;
+}
+
+.nav-second{
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+
+/** box 6 **/
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 14px;
+    font-weight: 700;
 }
