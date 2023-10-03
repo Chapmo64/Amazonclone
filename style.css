@@ -9,6 +9,7 @@
     color: whitesmoke;
     display: flex;
     align-items: center;
+    opacity: 95%;
     justify-content: space-evenly;
 }
 
@@ -127,4 +128,16 @@ border-top-right-radius: 2px;
 .nav-cart{
     font-size: 14px;
     font-weight: 700;
+}
+
+/**panel Boxs **/
+
+.panel{
+    display: flex;
+    background-color: #0f1111;
+    opacity: 80%;
+}
+
+.penal-options{
+    color: #0f1111;
 }
