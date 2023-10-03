@@ -15,7 +15,7 @@
 
 .logo{
     background-image: url("amazon_logo.png");   
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-size: cover;
 }
@@ -134,12 +134,64 @@ border-top-right-radius: 2px;
 
 .panel{
     display: flex;
-    background-color: #0f1111;
-    opacity: 80%;
+    background-color: #222a2a;
+    opacity: 85%;
     color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .penal-options{
+    width: 94%;
+    font-size: .85rem;
     display: flex;
     color: white;
+}
+
+.penal-options p {
+    margin-left: 15px;
+    font-weight: 50px;
+}
+
+/** hero **/
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/** boxes **/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    background-color: white;
+}
 }
