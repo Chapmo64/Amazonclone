@@ -136,8 +136,10 @@ border-top-right-radius: 2px;
     display: flex;
     background-color: #0f1111;
     opacity: 80%;
+    color: white;
 }
 
 .penal-options{
-    color: #0f1111;
+    display: flex;
+    color: white;
 }
